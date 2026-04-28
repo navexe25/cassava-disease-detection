@@ -1,4 +1,4 @@
-# 🌿 Cassava Leaf Disease Detection using ResNet-50 and LLM-Based Explainability
+# Cassava Leaf Disease Detection using ResNet-50 and LLM-Based Explainability
 
 An AI-powered web application for detecting cassava leaf diseases from leaf images using Deep Learning (**ResNet-50**) with intelligent disease explanations generated using **LLaMA 3.3 70B** via Groq.
 
@@ -6,7 +6,7 @@ This project combines **Computer Vision + Transfer Learning + Explainable AI + W
 
 ---
 
-# 📌 Project Overview
+# Project Overview
 
 Cassava is a major food crop in many countries, but leaf diseases can significantly reduce yield and quality. Manual diagnosis is slow, requires expertise, and may not always be available to farmers.
 
@@ -20,19 +20,19 @@ This system automates disease detection by:
 
 ---
 
-# 🚀 Features
+# Features
 
-✅ Upload cassava leaf images
-✅ Real-time disease prediction
-✅ Confidence score visualization
-✅ Interactive web UI using Gradio
-✅ AI-generated disease explanation
-✅ Treatment and prevention suggestions
-✅ Clean and deployable project structure
+Upload cassava leaf images
+Real-time disease prediction
+Confidence score visualization
+Interactive web UI using Gradio
+AI-generated disease explanation
+Treatment and prevention suggestions
+Clean and deployable project structure
 
 ---
 
-# 🧠 Model Architecture
+# Model Architecture
 
 ## Base Model
 
@@ -53,7 +53,7 @@ Benefits:
 
 ---
 
-# 📂 Disease Classes
+# Disease Classes
 
 The model predicts the following 5 classes:
 
@@ -65,7 +65,7 @@ The model predicts the following 5 classes:
 
 ---
 
-# 🏋️ Training Strategy
+# Training Strategy
 
 ## Data Preprocessing
 
@@ -112,7 +112,7 @@ For faster GPU training and reduced memory usage.
 
 ---
 
-# 📊 Performance
+# Performance
 
 Example metrics (update with your real values):
 
@@ -122,7 +122,7 @@ Example metrics (update with your real values):
 
 ---
 
-# 🖥️ Web Application (UI)
+# Web Application (UI)
 
 Built using **Gradio**.
 
@@ -136,7 +136,7 @@ The interface includes:
 
 ---
 
-# 🤖 LLM Explainability Module
+# LLM Explainability Module
 
 After prediction, the app sends the result to **LLaMA 3.3 70B** through Groq to generate farmer-friendly explanations.
 
@@ -153,7 +153,7 @@ This improves trust and usability beyond raw predictions.
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```text
 cassava-disease-detection/
@@ -167,16 +167,16 @@ cassava-disease-detection/
 
 ---
 
-# ⚙️ Installation
+# Installation
 
-## 1️⃣ Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/cassava-disease-detection.git
 cd cassava-disease-detection
 ```
 
-## 2️⃣ Install Dependencies
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -184,7 +184,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Run Application
+# Run Application
 
 ```bash
 python app.py
@@ -194,7 +194,7 @@ Then open the local Gradio URL in browser.
 
 ---
 
-# 🏋️ Train Model
+# Train Model
 
 To retrain:
 
@@ -204,7 +204,7 @@ python train.py
 
 ---
 
-# 🔑 API Key Setup (Groq)
+# API Key Setup (Groq)
 
 Create environment variable:
 
@@ -222,7 +222,7 @@ export GROQ_API_KEY="your_api_key"
 
 ---
 
-# 📸 Sample Workflow
+# Sample Workflow
 
 1. Upload cassava leaf image
 2. Click Analyze
@@ -233,7 +233,7 @@ export GROQ_API_KEY="your_api_key"
 
 ---
 
-# 🌍 Real-World Applications
+# Real-World Applications
 
 * Smart Agriculture
 * Farmer Advisory Systems
@@ -244,7 +244,7 @@ export GROQ_API_KEY="your_api_key"
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 * Mobile App Deployment
 * Multilingual Support
@@ -256,7 +256,7 @@ export GROQ_API_KEY="your_api_key"
 
 ---
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 * Python
 * PyTorch
